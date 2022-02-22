@@ -1,0 +1,276 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    background-image: url('images/black-city.jpg');
+    background-position: 35% 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Main menu - Start*/
+
+.header  {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.801);
+    color: white;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.logo-link img {
+    padding: 16px 0px 16px 12px;
+    margin: 0px;
+    width: 100%;
+}
+
+
+.header ul {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+}
+
+#btn-li {
+    padding: 10px 20px 0px 0px;
+}
+
+#translate-btn {
+    background-color: rgba(255, 255, 255, 0.897);
+    color: rgb(0, 0, 0);
+    padding: 0px 5px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#translate-btn-text {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header ul li {
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Main menu - End*/
+
+
+/*Main content - Start*/
+
+.main {
+    text-align: center;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 30px 10px;
+}
+
+.img-sm {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.sm-img img {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 50%;
+    margin: 0px;
+
+}
+
+.main h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.about-content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.about-content-img {
+    width: 50%;
+    margin: 0px 0px 30px 0px;
+}
+
+.about-content img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.about-content-text {
+    text-align: start;
+}
+
+.about-content p {
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.main .section-title-project {
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+.unique-project {
+    text-align: center;
+}
+
+.main .project-title {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.unique-project p {
+    margin: 0% 10% 0% 10%;
+    font-size: 1em;
+}
+
+.inside-hr {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.project-info-image {
+    margin-bottom: 30px;
+}
+
+.project-info-image img {
+    width: 80%;
+}
+
+.project-info-text {
+    text-align: start;
+}
+
+.project-info-text p {
+    font-weight: 500;
+}
+
+.project-info-text button {
+    margin-top: 10px;
+    padding: 2px 9px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+#redirection-link {
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+}
+
+/*Main content - End*/
+
+/*Footer content - Start*/
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.801);
+    color: white;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer span {
+    font-size: 20px;
+}
+
+.footer img  {
+    padding: 16px 0px 16px 12px;
+    margin: 0px;
+    width: 100%;
+}
+
+#social-items {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+}
+
+#individual-item {
+    padding: 0px 5px;
+    text-decoration: none;
+    list-style: none;
+}
+/*Code by Giuseppe Chaves Magnago*/
+#social-link {
+    text-decoration: none;
+    color: white;
+    font-size: 280%;
+    padding-right: 5px;
+}
+
+
+/*Footer content - End*/
+
+@media screen and (max-width: 991px) {
+    .img-sm {
+        display: block;
+    }
+
+    .about-content-img {
+        width: 50%;
+        margin: 0px 0px 30px 0px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #list-item {
+        display: none;
+    }
+
+    #btn-li {
+        padding-right: 0px;
+    }
+
+    .header img {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    
+    .footer img {
+        display: none;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+}
+
+
