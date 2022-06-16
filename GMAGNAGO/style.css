@@ -221,7 +221,7 @@ body {
 }
 
 #individual-item {
-    padding: 0px 5px;
+    padding: 0px 10px;
     text-decoration: none;
     list-style: none;
 }
@@ -263,14 +263,26 @@ body {
 }
 
 @media screen and (max-width: 540px) {
-    
-    .footer img {
-        display: none;
+    .footer {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        padding: 10px;
     }
 
-    .footer {
-        justify-content: center;
+    .footer img{
+        width: 70%;
+        padding: 0;
+    }
+
+    #social-items {
+        justify-content: space-between;
+    }
+
+    .individual-item {
+        font-size: 0.7em;
+        list-style: none;
+        margin: 0px 10px;
     }
 }
-
-
